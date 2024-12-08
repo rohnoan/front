@@ -100,3 +100,8 @@ hitesh choudary-journey notes
     how to add arrays/objects-
         make a arr/obj before hand
         add to the return statement only the variable name
+9)build background changer
+    used-
+        state
+        tailwind
+        changing css with state
