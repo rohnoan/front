@@ -17,7 +17,7 @@ function App() {
     window.navigator.clipboard.writeText(password)
     alert('copied :)')
     passwordRef.current?.select()
-    passwordRef.current?.setSelectionRange(0,4)
+    //passwordRef.current?.setSelectionRange(0,4)
   }
 
   const generatePassword=useCallback(()=>{
@@ -99,5 +99,7 @@ function App() {
     </div>
   )
 }
+
+//learn more about hooks 
 
 export default App
