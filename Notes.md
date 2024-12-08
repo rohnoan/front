@@ -50,4 +50,46 @@ hitesh choudary-journey notes
         make function and render it somewhere
         React breaks the UI into reusable, self-contained components (e.g., buttons, forms)
 5)Creating your own library and JSX
+    building your own react library-i didnt make it due to repetitive code
+6)why hooks
+    you cant just update things with function
+    because it deals with "UI"
+
+    hence react provides a mechanism to manipulate the "UI"
+
+    if(
+        setCount(count+1)
+        setCount(count+1)
+        setCount(count+1)
+    ){
+        only one increment
+    }
+    else if(
+        setCount(count=>count+1)
+        setCount(count=>count+1)
+        setCount(count=>count+1)
+
+    ){
+        n increments
+    }
+
+7)virtual DOM,fibre and reconcilliation
+    VDOM-
+        creates a duplicate DOM known as virtual dom(vdom)
+        when something click,vdom is compared to dom and then the vdom is re-rendered only where there are changes
+    reconcilliation-
+        comparison of dom and vdom to determine whether or not to update the vdom
+    fibre-
+        characteristics-
+            1 pause work and come back to it later
+            2 assign priorities to different types of work
+            3 resue previously completed work
+            4 abort work if no longer needed
+8)Tailwind and Props
+    components were present in PHP way before
+    but react has
+        vdom
+        doesnt update the whole page
+        client side rendering design
+        faster
     
