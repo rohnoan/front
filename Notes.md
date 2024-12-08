@@ -31,4 +31,23 @@ hitesh choudary-journey notes
             no routing
         
 3)create react projects
-
+    vite vs CRA
+        vite- less time
+              less packages installed
+              faster
+              better functionality
+    react-
+        react-dom
+        react-native
+        
+4)Understand react flow and structure
+    npm build and npm run dev are different
+    build has
+        html
+        css 
+        js
+    React has
+        make function and render it somewhere
+        React breaks the UI into reusable, self-contained components (e.g., buttons, forms)
+5)Creating your own library and JSX
+    
