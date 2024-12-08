@@ -97,3 +97,6 @@ hitesh choudary-journey notes
         defaultprops-
             1 use conditional rendering(username||'rohan')
             2 pass into the the component function eg-function Card({username="rohan"})
+    how to add arrays/objects-
+        make a arr/obj before hand
+        add to the return statement only the variable name
