@@ -105,3 +105,38 @@ hitesh choudary-journey notes
         state
         tailwind
         changing css with state
+10)useEffect,useRef and useCallback
+    
+    onChange={(e)=>setLength(e.target.value)}
+        onchange
+        e->react event object automatically passed by react
+        e.target->points to where the event occured
+        setLength is set to value(current length)
+    
+    onChange={()=>{
+            setNumberAllowed((prev)=>!prev)
+          }}
+        we're using callback(prev) for it to
+        update asap in react 
+        if used otherwise it wouldnt have been this fast
+    
+    memoisation(to understand useCallback)- 
+        Memoization is an optimization technique used to improve the performance of functions by caching their computed results. When a function is called with the same inputs, memoization allows the program to return the cached result instead of recalculating it.
+
+    useCallback
+        react hook while lets you cache a function definition between re-renders
+        read-
+        https://react.dev/reference/react/useCallback
+
+        you jus have to wrap in arrow function 
+        useCallback(()=>{},[])then
+         function,dependencies
+
+    useEffect
+        React Hook that lets you synchronize a component with an external system.
+        {setup,dependencies}
+
+    useRef
+        is a React Hook that lets you reference a value that’s not needed for rendering.
+        u get a reference of the following now u can manipulate anywhere u want
+        
