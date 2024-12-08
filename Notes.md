@@ -83,7 +83,7 @@ hitesh choudary-journey notes
         characteristics-
             1 pause work and come back to it later
             2 assign priorities to different types of work
-            3 resue previously completed work
+            3 reuse previously completed work
             4 abort work if no longer needed
 8)Tailwind and Props
     components were present in PHP way before
@@ -91,5 +91,9 @@ hitesh choudary-journey notes
         vdom
         doesnt update the whole page
         client side rendering design
-        faster
-    
+        faster than php
+    props- have to pass it to the child component to work eg-function Card(props)
+        wherever u are calling some component you can give it username/job to render the name, you dont have to manually change the children component but you can assing values to the parent component
+        defaultprops-
+            1 use conditional rendering(username||'rohan')
+            2 pass into the the component function eg-function Card({username="rohan"})
