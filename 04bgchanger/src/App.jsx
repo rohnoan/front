@@ -28,6 +28,22 @@ function App() {
           onClick={()=>setColor('green')}>
             green
           </button>
+          <button className='outline-none px-4 py-1 rounded-full text-black shadow-lg'
+          onClick={()=>setColor('orange')}>
+            orange
+          </button>
+          <button className='outline-none px-4 py-1 rounded-full text-black shadow-lg'
+          onClick={()=>setColor('yellow')}>
+            yellow
+          </button>
+          <button className='outline-none px-4 py-1 rounded-full text-black shadow-lg'
+          onClick={()=>setColor('black')}>
+            black
+          </button>
+          <button className='outline-none px-4 py-1 rounded-full text-black shadow-lg'
+          onClick={()=>setColor('brown')}>
+            brown
+          </button>
         </div>
       </div>
     </div>
