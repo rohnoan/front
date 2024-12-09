@@ -142,3 +142,7 @@ hitesh choudary-journey notes
         
 11)Custom hooks
     currency converter 
+        destructuring-
+            in this project we have used destructuring instead of props
+            props and destructuring provide same functionalaties
+            but destructuring provides cleaner code in comparison to props
