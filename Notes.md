@@ -105,6 +105,7 @@ hitesh choudary-journey notes
         state
         tailwind
         changing css with state
+
 10)useEffect,useRef and useCallback
     
     onChange={(e)=>setLength(e.target.value)}
@@ -179,5 +180,38 @@ hitesh choudary-journey notes
         useCurrencyInfo-
             fetches the value of string currency.
             
-
     currency options are looped through with options.
+
+12)React Router
+    install react-router-dom
+
+    to put route inside route example smtg.com/about/company then
+
+    see syntax in project and docs for better understanding
+    its a pretty straightforward concept according to me
+
+    <Route path='about'>
+        <Route path='company'/>
+    </Route>
+
+    when we use <a></a> tag it reloads.
+    instead use LINK tag
+    or use NAVLINK tag
+
+    NAVLINK>LINK(NAVLINK HAS MORE FEATURES
+        ISACTIVE?
+        ISPENDING?)
+
+    READ ROUTER DOCUMENTATION(KINDA CONFUSING.)
+
+    useParams-
+        in main (where routing is happening) when a 
+        : (colon) spotted it means that useParam is called and The return value of useParams is an object where the keys correspond to the parameter names in the route, and the values are the actual values from the URL.
+
+        -in simple words
+            catches the dynamic routes and grabs the url itself,makes a fetch request and get the data
+
+    learned-
+        routing
+        link/navlink
+        useParams
