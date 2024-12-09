@@ -159,4 +159,25 @@ hitesh choudary-journey notes
         FAANG and big shots use this  hook
         The useId hook in React is a built-in hook introduced in React 18. It generates unique IDs for components to ensure accessibility and prevent conflicts when rendering components on the server and client.
 
+    input box accepts-  
+        currency options
+        amount disabled
+        label
+        amount
+        on amount change
+        on currency change
+        selected currency 
     
+    label- from
+           to
+    
+    functions 
+        onAmountChange-
+            (number(e.target.value)) is taken and is used as a parameter
+        onCurrencyChange-
+            e.target.value again used as a parameter
+        useCurrencyInfo-
+            fetches the value of string currency.
+            
+
+    currency options are looped through with options.
