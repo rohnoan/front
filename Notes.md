@@ -215,3 +215,17 @@ hitesh choudary-journey notes
         routing
         link/navlink
         useParams
+
+13)ContextAPI
+    to pass data into multiple components state management is used.
+
+    we make a central place to put all data in so that we can access it easily
+    
+    workflow-
+
+    start-
+        react app
+            -create context
+                -provide context
+                    -consume the context
+                        -end
