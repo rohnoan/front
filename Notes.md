@@ -229,3 +229,8 @@ hitesh choudary-journey notes
                 -provide context
                     -consume the context
                         -end
+
+    how to context-
+        2 parts-
+            context creator
+            context provider
