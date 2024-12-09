@@ -146,3 +146,17 @@ hitesh choudary-journey notes
             in this project we have used destructuring instead of props
             props and destructuring provide same functionalaties
             but destructuring provides cleaner code in comparison to props
+
+    index.js
+        -index.js is a common practice for developers in which you import all components and export all components 
+        -it serves as a library for all components so that you dont have to call components repeatitevely
+    making your own customised hook-
+        a custom hook is nothing but a function thats reusable
+        its main feature is resusability
+        in our project, useCurrencyInfo fetches the data from an API.
+
+    useId hook-
+        FAANG and big shots use this  hook
+        The useId hook in React is a built-in hook introduced in React 18. It generates unique IDs for components to ensure accessibility and prevent conflicts when rendering components on the server and client.
+
+    
