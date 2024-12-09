@@ -140,3 +140,5 @@ hitesh choudary-journey notes
         is a React Hook that lets you reference a value that’s not needed for rendering.
         u get a reference of the following now u can manipulate anywhere u want
         
+11)Custom hooks
+    currency converter 
