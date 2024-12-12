@@ -231,6 +231,12 @@ hitesh choudary-journey notes
                         -end
 
     how to context-
-        2 parts-
-            context creator
-            context provider
+        create context-UserContext
+            you create a context to hold the shared data. This is typically done in a separate file like UserContext.js
+        Create a Provider Component (UserContextProvider)
+            The UserContextProvider component will use the UserContext.Provider to wrap the entire application (or part of it) to give components access to the context.
+        Wrap your Application with UserContextProvider
+            In App.js, you wrap the entire app (or the portion of your app where you want context data available) with UserContextProvider. This allows all components inside UserContextProvider to access the user state.
+        Consume the Context in Components
+            In your Login.jsx, you can get access to setUser from the context. When the user submits the form, you update the user state using setUser.
+

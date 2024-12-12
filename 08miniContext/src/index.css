@@ -12,9 +12,15 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+input{
+  height: 30px;
+}
 
-
-
+*{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 a {
   font-weight: 500;
   color: #646cff;
