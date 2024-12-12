@@ -240,3 +240,30 @@ hitesh choudary-journey notes
         Consume the Context in Components
             In your Login.jsx, you can get access to setUser from the context. When the user submits the form, you update the user state using setUser.
 
+        ***CONTEXT IS A VERY GOOD ALTERNATIVE FOR PROP-DRILLING***
+
+    
+
+        Prop Drilling
+
+        Definition: The process of passing data down the component tree via props, even through components that don’t directly use the data.
+
+        Use Case: Works well for small applications or when the data needs to be passed only a few levels deep.
+
+        Drawbacks:
+        Becomes cumbersome and error-prone in deeply nested components.
+        Makes components tightly coupled, harder to maintain, and less reusable
+
+        Context API
+
+        Definition: React’s built-in feature to share state globally across a component tree without manually passing props at every level.
+
+        Use Case: Ideal for managing global state like themes, authentication, or user settings.
+
+        Advantages:
+        Simplifies state management for deeply nested components.
+        Reduces prop drilling and keeps components decoupled.
+        
+        Drawbacks:
+        Overuse can lead to performance issues (re-renders).
+        Makes debugging more complex compared to explicit props.
